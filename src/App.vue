@@ -107,6 +107,7 @@ export default {
     }
   },
   mounted() {
+    setTimeout(() => {location.reload()}, 60000);
     window.addEventListener("orientationchange", () => {
       if(this.stepSize) {
         this.loading = true;
