@@ -191,7 +191,7 @@ export default {
     position: fixed;
     color: white;
     font-size: 2rem;
-    top: 6rem;
+    top: 4rem;
     left: 3rem;
     animation: 2s fade-in forwards;
     span {
@@ -210,7 +210,7 @@ export default {
     position: fixed;
     color: white;
     font-size: 2rem;
-    top: 6rem;
+    top: 4rem;
     right: 3rem;
     animation: 1.5s fade-in forwards;
     span {
@@ -252,6 +252,8 @@ export default {
   animation: 1.5s fade-in forwards;
   margin-top: 3rem;
   margin-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 @keyframes fade-in {
