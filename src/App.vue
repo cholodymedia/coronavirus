@@ -129,7 +129,7 @@ export default {
       data: {
         query: `
           {
-            allInformation {
+            allInformation(first: "100") {
               title,
               zarazenia,
               zgony
